@@ -1,0 +1,135 @@
+.background-w-color {
+    background-color: #E8E7E8;
+}
+
+.form-signin {
+    max-width: 575px;
+}
+
+.form-signup {
+    max-width: 1226px;
+}
+
+.links-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+.links-bottom a {
+    text-decoration: none;
+    color: #595959;
+    font-weight: 200;
+}
+
+.btn-login {
+    background-color: #3A57BB;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    padding: 42px 22px 60px;
+    background-color: #fff;
+}
+
+.formulario.cadastro {
+    padding: 42px 64px 22px;
+}
+
+.form-controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    column-gap: 35px;
+}
+
+.form-control {
+    background-color: #E8E7E8;
+    border-radius: 5px;
+    height: 49px;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.25);
+}
+
+.form-floating>label {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.50);
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label {
+    font-size: 14px;
+    
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.entrar-como {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 4px 10px;
+    text-align: center;
+}
+
+.entrar-como img {
+    margin-bottom: 5px;
+}
+
+.entrar-como a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    display: block;
+}
+
+.title {
+    color: #003264;
+    font-size: 36px;
+}
+
+@media (max-width: 980px) {
+    .formulario {
+        margin: 0 20px;
+        padding: 30px 20px;
+    }
+
+    .formulario .logo-form {
+        margin-bottom: 20px;
+    }
+    
+    .mt-5 {
+        margin-top: 4rem !important;
+    }
+
+    .formulario.cadastro {
+        padding: 30px 20px;
+        margin-bottom: 4rem;
+    }
+    
+    .form-controls {
+        grid-template-columns: 1fr;
+    }
+
+    .form-controls .mb-35 {
+        margin-bottom: 25px;
+    }
+    
+    .btn-login {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
