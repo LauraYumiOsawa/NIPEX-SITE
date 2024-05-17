@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Cadastro de Orientador</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/style/cabecalho.css">
-    <link rel="stylesheet" href="/style/login.css">
+    <link rel="stylesheet" href="style/cabecalho.css">
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/styles.css">
 </head>
 
 <body class="background-w-color">
@@ -19,7 +20,7 @@
         <div class="container">
             <div class="cabecalho__content">
                 <a href="">
-                    <img src="/assets/logo-nipex.png" alt="" class="logo-form">
+                    <img src="assets/logo-nipex.png" alt="" class="logo-form">
                 </a>
             </div>
         </div>
@@ -28,7 +29,7 @@
 
     <div class="form-signup w-100 m-auto mt-5">
         <form class="formulario cadastro">
-            <img class="mb-4" src="/assets/logo-form.png" alt="" width="200" height="68">
+            <img class="mb-4" src="assets/logo-form.png" alt="" width="200" height="68">
             <h1 class="h3 mb-35 fw-bold title">Cadastro</h1>
 
             <div class="form-controls">
@@ -56,10 +57,10 @@
                     <label for="senhaUsuario">Senha</label>
                 </div>
 
-                <!-- TERMO -->
+                <!-- TITULAÇÃO -->
                 <div class="form-floating mb-35 w-100">
-                    <input type="text" class="form-control" id="termoUsuario" placeholder="3 termo">
-                    <label for="termoUsuario">Termo</label>
+                    <input type="text" class="form-control" id="titulacaoUsuario" placeholder="3 titulacao">
+                    <label for="titulacaoUsuario">Titulação</label>
                 </div>
 
                 <!-- CPF -->
@@ -68,10 +69,10 @@
                     <label for="cpfUsuario">CPF</label>
                 </div>
 
-                <!-- RA -->
+                <!-- NUMERO DE MATRICULA -->
                 <div class="form-floating mb-35 w-100">
-                    <input type="text" class="form-control" id="raUsuario" placeholder="0000000" maxlength="7">
-                    <label for="raUsuario">RA</label>
+                    <input type="text" class="form-control" id="numeroMatricula" placeholder="00000000000" maxlength="11">
+                    <label for="numeroMatricula">Número de matricula</label>
                 </div>
 
                 <!-- TELEFONE -->
@@ -92,7 +93,7 @@
         </form>
     </div>
 
-    <script src="/js/global.js"></script>
+    <script src="js/global.js"></script>
 </body>
 
 </html>
