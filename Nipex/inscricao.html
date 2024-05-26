@@ -14,6 +14,10 @@
 <body>
     <div class="header">
         <a href="editais.html" class="logo"><img src="assets/logo-nipex.png"></a>
+        <div class="header-right">
+            <a href="configuracaoUsuario.html"><i class="fa fa-user" aria-hidden="true" style="font-size:30px;"></i><?php echo '{Nome}' ?></a>
+            <a href="login.html"><i class="fa fa-sign-in" aria-hidden="true" style="font-size:30px;"></i><?php echo '{Nome}' ?></a>
+        </div>
     </div>
 
     <div class="sidenav">
@@ -41,20 +45,23 @@
                     </select><br><br>
                 </form>
 
+                <label>Título do Projeto</label>
+                <input type="input-info" id="fname" name="fname" placeholder="Título"><br><br>
+
                 <label>Formulario de inscricao</label>
-                <p class="sub-text"><small class="text-body-secondary"> *Anexar uma copia para cada formato de arquivo (.doc, .pdf)</small></p> <!-- Limitar 2 arquivos ? -->
+                <p class="sub-text"></p> <!-- Limitar 2 arquivos ? -->
                 <input class="chose-file" type="file" id="fname" name="fname" multiple required><br><br>
 
-                <label>Projeto de pesquisa</label>
-                <p class="sub-text"><small class="text-body-secondary"> *Anexar uma copia para cada formato de arquivo (.doc, .pdf)</small></p> <!-- Limitar 2 arquivos ? -->
+                <label>Projeto de pesquisa - Não identificado</label>
+                <p class="sub-text"><small class="text-body-secondary"> *Anexar uma copia no formato de arquivo .doc</small></p> <!-- Limitar 2 arquivos ? -->
+                <input class="chose-file" type="file" id="fname" name="fname" multiple required><br><br>
+                
+                <label>Projeto de pesquisa - Identificado</label>
+                <p class="sub-text"><small class="text-body-secondary"> *Anexar uma copia no formato de arquivo .pdf</small></p> <!-- Limitar 2 arquivos ? -->
                 <input class="chose-file" type="file" id="fname" name="fname" multiple required><br><br>
 
                 <label for="files">Termo de compromisso do orientador</label>
-                <p class="sub-text"><small class="text-body-secondary"> *Anexar uma copia para cada formato de arquivo (.doc, .pdf)</small></p> <!-- Limitar 2 arquivos ? -->
-                <input class="chose-file" type="file" id="fname" name="fname" multiple required><br><br>
-
-                <label>Termo de compromisso do discente</label>
-                <p class="sub-text"><small class="text-body-secondary"> *Anexar uma copia para cada formato de arquivo (.doc, .pdf)</small></p> <!-- Limitar 2 arquivos ? -->
+                <p class="sub-text"></p> <!-- Limitar 2 arquivos ? -->
                 <input class="chose-file" type="file" id="fname" name="fname" multiple required><br><br>
 
                 <label>Anexo do currículo Lattes (CNPQ) do orientador</label>
